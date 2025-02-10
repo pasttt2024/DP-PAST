@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.navbar button:hover {
+  background: #e55b00;
+}
+.hero {
+  position: relative;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 20px;
+  background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmxrbm41bGVrdWR1M2ttZG5wcWJ0ZmJ1b2JiNnJzNGkzczR6ZDBkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YDC7pH9xYNbnLRtK1m/giphy.gif")
+    no-repeat center/cover;
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.popular {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.anime-card {
+  background: #fff;
+  padding: 15px;
+  width: 200px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.anime-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.anime-card h3 {
+  margin: 10px 0 5px;
+}
+@media (max-width: 768px) {
+  .popular {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
