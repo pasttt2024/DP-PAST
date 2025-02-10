@@ -1,2 +1,0 @@
-# DP-PAST
-Anime Webpage
